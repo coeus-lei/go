@@ -1,1 +1,13 @@
 #refer to https://github.com/aliyun/aliyun-oss-go-sdk
+
+#######################
+#switch to linux and windows enviroment to compile code
+##switch to linux on windows platform
+# SET GOARCH=amd64
+# go env -w GOARCH=amd64
+# SET GOOS=linux
+# go env -w GOOS=linux
+########################
+##swicth back to windows on winodws platform
+# go env -w GOARCH=amd64
+# go env -w GOOS=windows
